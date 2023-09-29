@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function page() {
@@ -24,13 +25,13 @@ export default function page() {
                                   <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                                       <div className="carousel-inner">
                                           <div className="carousel-item active">
-                                              <img src="assets/img/slides-1.jpg" className="d-block w-100" alt="..." />
+                                              <Image src="assets/img/slides-1.jpg" className="d-block w-100" alt="..." />
                                           </div>
                                           <div className="carousel-item">
-                                              <img src="assets/img/slides-2.jpg" className="d-block w-100" alt="..." />
+                                              <Image src="assets/img/slides-2.jpg" className="d-block w-100" alt="..." />
                                           </div>
                                           <div className="carousel-item">
-                                              <img src="assets/img/slides-3.jpg" className="d-block w-100" alt="..." />
+                                              <Image src="assets/img/slides-3.jpg" className="d-block w-100" alt="..." />
                                           </div>
                                       </div>
                                   </div>{/* End Slides only carousel*/}
@@ -48,13 +49,13 @@ export default function page() {
                                       </div>
                                       <div className="carousel-inner">
                                           <div className="carousel-item active">
-                                              <img src="assets/img/slides-1.jpg" className="d-block w-100" alt="..." />
+                                              <Image src="assets/img/slides-1.jpg" className="d-block w-100" alt="..." />
                                           </div>
                                           <div className="carousel-item">
-                                              <img src="assets/img/slides-2.jpg" className="d-block w-100" alt="..." />
+                                              <Image src="assets/img/slides-2.jpg" className="d-block w-100" alt="..." />
                                           </div>
                                           <div className="carousel-item">
-                                              <img src="assets/img/slides-3.jpg" className="d-block w-100" alt="..." />
+                                              <Image src="assets/img/slides-3.jpg" className="d-block w-100" alt="..." />
                                           </div>
                                       </div>
                                       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -76,13 +77,13 @@ export default function page() {
                                   <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
                                       <div className="carousel-inner">
                                           <div className="carousel-item active">
-                                              <img src="assets/img/slides-1.jpg" className="d-block w-100" alt="..." />
+                                              <Image src="assets/img/slides-1.jpg" className="d-block w-100" alt="..." />
                                           </div>
                                           <div className="carousel-item">
-                                              <img src="assets/img/slides-2.jpg" className="d-block w-100" alt="..." />
+                                              <Image src="assets/img/slides-2.jpg" className="d-block w-100" alt="..." />
                                           </div>
                                           <div className="carousel-item">
-                                              <img src="assets/img/slides-3.jpg" className="d-block w-100" alt="..." />
+                                              <Image src="assets/img/slides-3.jpg" className="d-block w-100" alt="..." />
                                           </div>
                                       </div>
                                       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -105,13 +106,13 @@ export default function page() {
                                   <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                                       <div className="carousel-inner">
                                           <div className="carousel-item active">
-                                              <img src="assets/img/slides-1.jpg" className="d-block w-100" alt="..." />
+                                              <Image src="assets/img/slides-1.jpg" className="d-block w-100" alt="..." />
                                           </div>
                                           <div className="carousel-item">
-                                              <img src="assets/img/slides-2.jpg" className="d-block w-100" alt="..." />
+                                              <Image src="assets/img/slides-2.jpg" className="d-block w-100" alt="..." />
                                           </div>
                                           <div className="carousel-item">
-                                              <img src="assets/img/slides-3.jpg" className="d-block w-100" alt="..." />
+                                              <Image src="assets/img/slides-3.jpg" className="d-block w-100" alt="..." />
                                           </div>
                                       </div>
                                       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -137,21 +138,21 @@ export default function page() {
                                       </div>
                                       <div className="carousel-inner">
                                           <div className="carousel-item active">
-                                              <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/slides-1.jpg" className="d-block w-100" alt="true" />
+                                              <Image src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/slides-1.jpg" className="d-block w-100" alt="true" />
                                               <div className="carousel-caption d-none d-md-block">
                                                   <h5>First slide label</h5>
                                                   <p>Some representative placeholder content for the first slide.</p>
                                               </div>
                                           </div>
                                           <div className="carousel-item">
-                                              <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/slides-1.jpg" className="d-block w-100" alt="true" />
+                                              <Image src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/slides-1.jpg" className="d-block w-100" alt="true" />
                                               <div className="carousel-caption d-none d-md-block">
                                                   <h5>Second slide label</h5>
                                                   <p>Some representative placeholder content for the second slide.</p>
                                               </div>
                                           </div>
                                           <div className="carousel-item">
-                                              <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/slides-1.jpg" className="d-block w-100" alt="true" />
+                                              <Image src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/slides-1.jpg" className="d-block w-100" alt="true" />
                                               <div className="carousel-caption d-none d-md-block">
                                                   <h5>Third slide label</h5>
                                                   <p>Some representative placeholder content for the third slide.</p>
