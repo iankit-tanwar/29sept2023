@@ -17,7 +17,7 @@ export default function page() {
               </div>{/* End Page Title */}
               <section className="section">
                   <p>
-                      Use the following pattern to add the Bootstrap icons to anywhere in your project. <code>&lt;i class="bi <strong>alarm-fille</strong>"&gt;&lt;/i&gt;</code> Replace the bold part with the below icon names.
+                      Use the following pattern to add the Bootstrap icons to anywhere in your project. <code>&lt;i class=bi <strong>alarm-fille</strong>&gt;&lt;/i&gt;</code> Replace the bold part with the below icon names.
                       Check the <a href="https://icons.getbootstrap.com/" target="_blank">Official website</a> for more info.
                   </p>
                   <div className="iconslist">
