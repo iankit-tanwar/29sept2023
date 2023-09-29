@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function page() {
@@ -44,7 +45,7 @@ export default function page() {
                           <div className="card mb-3">
                               <div className="row g-0">
                                   <div className="col-md-4">
-                                      <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/card.jpg" className="img-fluid rounded-start" alt="true" />
+                                      <Image src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/card.jpg" className="img-fluid rounded-start" alt="true" />
                                   </div>
                                   <div className="col-md-8">
                                       <div className="card-body">
@@ -58,28 +59,28 @@ export default function page() {
                       <div className="col-lg-3">
                           {/* Card with an image on top */}
                           <div className="card">
-                              <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/card.jpg" className="card-img-top" alt="true" />
+                              <Image src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/card.jpg" className="card-img-top" alt="true" />
                               <div className="card-body">
                                   <h5 className="card-title">Card with an image on top</h5>
-                                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card content.</p>
                               </div>
                           </div>{/* End Card with an image on top */}
                           {/* Card with an image on bottom */}
                           <div className="card">
                               <div className="card-body">
                                   <h5 className="card-title">Card with an image on bottom</h5>
-                                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card content.</p>
                               </div>
-                              <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/card.jpg" className="card-img-bottom" alt="true" />
+                              <Image src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/card.jpg" className="card-img-bottom" alt="true" />
                           </div>{/* End Card with an image on bottom */}
                       </div>
                       <div className="col-lg-3">
                           {/* Card with an image overlay */}
                           <div className="card">
-                              <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/card.jpg" className="card-img-top" alt="true" />
+                              <Image src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/card.jpg" className="card-img-top" alt="true" />
                               <div className="card-img-overlay">
                                   <h5 className="card-title">Card with an image overlay</h5>
-                                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card content.</p>
                               </div>
                           </div>{/* End Card with an image overlay */}
                           {/* Card with titles, buttons, and links */}
@@ -87,13 +88,13 @@ export default function page() {
                               <div className="card-body">
                                   <h5 className="card-title">Card with titles, buttons, and links</h5>
                                   <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card content.</p>
                                   <p className="card-text"><a href="#" className="btn btn-primary">Button</a></p>
                                   <a href="#" className="card-link">Card link</a>
                                   <a href="#" className="card-link">Another link</a>
                               </div>
-                          </div>{/* End Card with titles, buttons, and links */}
-                          {/* Special title treatmen */}
+                          </div>
+
                           <div className="card text-center">
                               <div className="card-header">
                                   <ul className="nav nav-pills card-header-pills">
