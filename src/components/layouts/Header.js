@@ -8,13 +8,7 @@ export default function Header() {
             <header id="header" className="header fixed-top d-flex align-items-center">
                 <div className="d-flex align-items-center justify-content-between">
                     <Link href="/admin/dashboard" className="logo d-flex align-items-center">
-                    <Image
-                                        src="/profile.png"
-                                        width={50}
-                                        height={50}
-                                        alt="Picture of the author"
-                                        className="rounded-circle"
-                                    />
+                    <img src="../assets/img/logo.png" alt="true" />
                         <span className="d-none d-lg-block">NiceAdmin</span>
                     </Link>
                     <i className="bi bi-list toggle-sidebar-btn" />
@@ -109,13 +103,7 @@ export default function Header() {
                                 </li>
                                 <li className="message-item">
                                     <a href="#">
-                                    <Image
-                                        src="/profile.png"
-                                        width={50}
-                                        height={50}
-                                        alt="Picture of the author"
-                                        className="rounded-circle"
-                                    />
+                                    <img src="../assets/img/messages-1.jpg" alt="true" class="rounded-circle" />
                                         <div>
                                             <h4>Maria Hudson</h4>
                                             <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
@@ -128,13 +116,7 @@ export default function Header() {
                                 </li>
                                 <li className="message-item">
                                     <a href="#">
-                                    <Image
-                                        src="/profile.png"
-                                        width={50}
-                                        height={50}
-                                        alt="Picture of the author"
-                                        className="rounded-circle"
-                                    />
+                                    <img src="../assets/img/messages-2.jpg" alt="true" class="rounded-circle"></img>
                                         <div>
                                             <h4>Anna Nelson</h4>
                                             <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
@@ -147,13 +129,7 @@ export default function Header() {
                                 </li>
                                 <li className="message-item">
                                     <a href="#">
-                                    <Image
-                                        src="/profile.png"
-                                        width={50}
-                                        height={50}
-                                        alt="Picture of the author"
-                                        className="rounded-circle"
-                                    />
+                                    <img src="../assets/img/messages-3.jpg" alt="true" class="rounded-circle" />
                                         <div>
                                             <h4>David Muldon</h4>
                                             <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
@@ -171,13 +147,7 @@ export default function Header() {
                         </li>{/* End Messages Nav */}
                         <li className="nav-item dropdown pe-3">
                             <a className="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-                            <Image
-                                        src="/profile.png"
-                                        width={50}
-                                        height={50}
-                                        alt="Picture of the author"
-                                        className="rounded-circle"
-                                    />
+                            <img src="../assets/img/profile-img.jpg" alt="Profile" class="rounded-circle" />
                                 <span className="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
                             </a>{/* End Profile Iamge Icon */}
                             <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
