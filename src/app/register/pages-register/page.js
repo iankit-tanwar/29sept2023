@@ -15,14 +15,8 @@ export default function page() {
                                 <div className="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
                                     <div className="d-flex justify-content-center py-4">
                                         <a href="index.html" className="logo d-flex align-items-center w-auto">
-                                            <Image
-                                                src="/profile.png"
-                                                width={50}
-                                                height={50}
-                                                alt="Picture of the author"
-
-                                            />
-                                            <span className="d-none d-lg-block">NiceAdmin</span>
+                                        <img src="/assets/img/logo.png" alt="true" />
+                                            <span className="d-none d-lg-block">FKAUTO</span>
                                         </a>
                                     </div>{/* End Logo */}
                                     <div className="card mb-3">

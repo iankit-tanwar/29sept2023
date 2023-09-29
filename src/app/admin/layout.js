@@ -20,12 +20,12 @@ export default function DashboardLayout({ children }) {
             <Script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.js" data-nscript="afterInteractive"></Script>
             <Script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.3/echarts.min.js" data-nscript="afterInteractive"></Script>
             <Script src="https://cdnjs.cloudflare.com/ajax/libs/quill/1.3.7/quill.min.js" data-nscript="afterInteractive"></Script>
-            <Script src="/assets/vendor/simple-datatables/simple-datatables.js" data-nscript="afterInteractive"></Script>
+            <Script src="../../..//assets/vendor/simple-datatables/simple-datatables.js" data-nscript="afterInteractive"></Script>
             <Script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.7.0/tinymce.min.js" data-nscript="afterInteractive"></Script>
             <Script src="/assets/vendor/php-email-form/validate.js" data-nscript="afterInteractive"></Script>
 
 
-            <Script src="/assets/js/main.js" data-nscript="afterInteractive"></Script>
+            <Script src="../../../assets/js/main.js" data-nscript="afterInteractive"></Script>
 
         </>
     )

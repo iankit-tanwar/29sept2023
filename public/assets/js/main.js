@@ -41,6 +41,7 @@
   /**
    * Sidebar toggle
    */
+  
   if (select('.toggle-sidebar-btn')) {
     on('click', '.toggle-sidebar-btn', function(e) {
       select('body').classList.toggle('toggle-sidebar')
@@ -312,10 +313,13 @@
     setTimeout(() => {
       new ResizeObserver(function() {
         select('.echart', true).forEach(getEchart => {
-          echarts.getInstanceByDom(getEchart).resize();
+          //echarts.getInstanceByDom(getEchart).resize();
         })
       }).observe(mainContainer);
     }, 200);
   }
 
+  setTimeout(()=>{
+    //document.querySelector('body').classList.add('toggle-sidebar')
+  },1000)
 })();
