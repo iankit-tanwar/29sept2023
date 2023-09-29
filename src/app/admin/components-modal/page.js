@@ -49,7 +49,7 @@ export default function page() {
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Disabled Backdrop</h5>
-              <p>You can disable the backdrop by adding <code>data-bs-backdrop="false"</code> to <code>.modal-dialog</code></p>
+              <p>You can disable the backdrop by adding <code>data-bs-backdrop false</code> to <code>.modal-dialog</code></p>
               {/* Disabled Backdrop Modal */}
               <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#disablebackdrop">
                 Launch Modal
