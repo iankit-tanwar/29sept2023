@@ -13,9 +13,9 @@ export default function Aside() {
             </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+            <Link className="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
               <i className="bi bi-menu-button-wide" /><span>Components</span><i className="bi bi-chevron-down ms-auto" />
-            </a>
+            </Link>
             <ul id="components-nav" className="nav-content collapse " data-bs-parent="#sidebar-nav">
               <li>
                 <Link href="/admin/components-alerts">
@@ -33,192 +33,192 @@ export default function Aside() {
                 </Link>
               </li>
               <li>
-                <a href="components-breadcrumbs.html">
+                <Link href="/admin/components-breadcrumbs">
                   <i className="bi bi-circle" /><span>Breadcrumbs</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="components-buttons.html">
+                <Link href="/admin/components-buttons">
                   <i className="bi bi-circle" /><span>Buttons</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="components-cards.html">
+                <Link href="components-cards">
                   <i className="bi bi-circle" /><span>Cards</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="components-carousel.html">
+                <Link href="components-carousel">
                   <i className="bi bi-circle" /><span>Carousel</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="components-list-group.html">
+                <Link href="components-list-group">
                   <i className="bi bi-circle" /><span>List group</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="components-modal.html">
+                <Link href="components-modal">
                   <i className="bi bi-circle" /><span>Modal</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="components-tabs.html">
+                <Link href="components-tabs">
                   <i className="bi bi-circle" /><span>Tabs</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="components-pagination.html">
+                <Link href="components-pagination">
                   <i className="bi bi-circle" /><span>Pagination</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="components-progress.html">
+                <Link href="components-progress">
                   <i className="bi bi-circle" /><span>Progress</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="components-spinners.html">
+                <Link href="components-spinners">
                   <i className="bi bi-circle" /><span>Spinners</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="components-tooltips.html">
+                <Link href="components-tooltips">
                   <i className="bi bi-circle" /><span>Tooltips</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </li>{/* End Components Nav */}
           <li className="nav-item">
-            <a className="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+            <Link className="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
               <i className="bi bi-journal-text" /><span>Forms</span><i className="bi bi-chevron-down ms-auto" />
-            </a>
+            </Link>
             <ul id="forms-nav" className="nav-content collapse " data-bs-parent="#sidebar-nav">
               <li>
-                <a href="forms-elements.html">
+                <Link href="forms-elements">
                   <i className="bi bi-circle" /><span>Form Elements</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="forms-layouts.html">
+                <Link href="forms-layouts">
                   <i className="bi bi-circle" /><span>Form Layouts</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="forms-editors.html">
+                <Link href="forms-editors">
                   <i className="bi bi-circle" /><span>Form Editors</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="forms-validation.html">
+                <Link href="forms-validation">
                   <i className="bi bi-circle" /><span>Form Validation</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </li>{/* End Forms Nav */}
           <li className="nav-item">
-            <a className="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+            <Link className="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
               <i className="bi bi-layout-text-window-reverse" /><span>Tables</span><i className="bi bi-chevron-down ms-auto" />
-            </a>
+            </Link>
             <ul id="tables-nav" className="nav-content collapse " data-bs-parent="#sidebar-nav">
               <li>
-                <a href="tables-general.html">
+                <Link href="tables-general">
                   <i className="bi bi-circle" /><span>General Tables</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="tables-data.html">
+                <Link href="tables-data">
                   <i className="bi bi-circle" /><span>Data Tables</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </li>{/* End Tables Nav */}
           <li className="nav-item">
-            <a className="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+            <Link className="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
               <i className="bi bi-bar-chart" /><span>Charts</span><i className="bi bi-chevron-down ms-auto" />
-            </a>
+            </Link>
             <ul id="charts-nav" className="nav-content collapse " data-bs-parent="#sidebar-nav">
               <li>
-                <a href="charts-chartjs.html">
+                <Link href="charts-chartjs">
                   <i className="bi bi-circle" /><span>Chart.js</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="charts-apexcharts.html">
+                <Link href="charts-apexcharts">
                   <i className="bi bi-circle" /><span>ApexCharts</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="charts-echarts.html">
+                <Link href="charts-echarts">
                   <i className="bi bi-circle" /><span>ECharts</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </li>{/* End Charts Nav */}
           <li className="nav-item">
-            <a className="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+            <Link className="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
               <i className="bi bi-gem" /><span>Icons</span><i className="bi bi-chevron-down ms-auto" />
-            </a>
+            </Link>
             <ul id="icons-nav" className="nav-content collapse " data-bs-parent="#sidebar-nav">
               <li>
-                <a href="icons-bootstrap.html">
+                <Link href="icons-bootstrap">
                   <i className="bi bi-circle" /><span>Bootstrap Icons</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="icons-remix.html">
+                <Link href="icons-remix">
                   <i className="bi bi-circle" /><span>Remix Icons</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="icons-boxicons.html">
+                <Link href="icons-boxicons">
                   <i className="bi bi-circle" /><span>Boxicons</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </li>{/* End Icons Nav */}
           <li className="nav-heading">Pages</li>
           <li className="nav-item">
-            <a className="nav-link collapsed" href="users-profile.html">
+            <Link className="nav-link collapsed" href="users-profile">
               <i className="bi bi-person" />
               <span>Profile</span>
-            </a>
+            </Link>
           </li>{/* End Profile Page Nav */}
           <li className="nav-item">
-            <a className="nav-link collapsed" href="pages-faq.html">
+            <Link className="nav-link collapsed" href="pages-faq">
               <i className="bi bi-question-circle" />
               <span>F.A.Q</span>
-            </a>
+            </Link>
           </li>{/* End F.A.Q Page Nav */}
           <li className="nav-item">
-            <a className="nav-link collapsed" href="pages-contact.html">
+            <Link className="nav-link collapsed" href="pages-contact">
               <i className="bi bi-envelope" />
               <span>Contact</span>
-            </a>
+            </Link>
           </li>{/* End Contact Page Nav */}
           <li className="nav-item">
-            <a className="nav-link collapsed" href="pages-register.html">
+            <Link className="nav-link collapsed" href="/register/pages-register">
               <i className="bi bi-card-list" />
               <span>Register</span>
-            </a>
+            </Link>
           </li>{/* End Register Page Nav */}
           <li className="nav-item">
-            <a className="nav-link collapsed" href="pages-login.html">
+            <Link className="nav-link collapsed" href="/">
               <i className="bi bi-box-arrow-in-right" />
               <span>Login</span>
-            </a>
+            </Link>
           </li>{/* End Login Page Nav */}
           <li className="nav-item">
-            <a className="nav-link collapsed" href="pages-error-404.html">
+            <Link className="nav-link collapsed" href="/error/pages-error-404">
               <i className="bi bi-dash-circle" />
               <span>Error 404</span>
-            </a>
+            </Link>
           </li>{/* End Error 404 Page Nav */}
           <li className="nav-item">
-            <a className="nav-link collapsed" href="pages-blank.html">
+            <Link className="nav-link collapsed" href="pages-blank">
               <i className="bi bi-file-earmark" />
               <span>Blank</span>
-            </a>
+            </Link>
           </li>{/* End Blank Page Nav */}
         </ul>
       </aside>

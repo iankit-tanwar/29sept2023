@@ -7,7 +7,7 @@ export default function Header() {
             <header id="header" className="header fixed-top d-flex align-items-center">
                 <div className="d-flex align-items-center justify-content-between">
                     <Link href="/admin/dashboard" className="logo d-flex align-items-center">
-                        <img src="assets/img/logo.png" alt='true' />
+                        <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/logo.png" alt='true' />
                         <span className="d-none d-lg-block">NiceAdmin</span>
                     </Link>
                     <i className="bi bi-list toggle-sidebar-btn" />
@@ -146,7 +146,7 @@ export default function Header() {
                         </li>{/* End Messages Nav */}
                         <li className="nav-item dropdown pe-3">
                             <a className="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-                                <img src="assets/img/profile-img.jpg" alt="Profile" className="rounded-circle" />
+                                <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/profile-img.jpg" alt="Profile" className="rounded-circle" />
                                 <span className="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
                             </a>{/* End Profile Iamge Icon */}
                             <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
@@ -185,10 +185,10 @@ export default function Header() {
                                     <hr className="dropdown-divider" />
                                 </li>
                                 <li>
-                                    <a className="dropdown-item d-flex align-items-center" href="#">
+                                    <Link className="dropdown-item d-flex align-items-center" href="/">
                                         <i className="bi bi-box-arrow-right" />
                                         <span>Sign Out</span>
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>{/* End Profile Dropdown Items */}
                         </li>{/* End Profile Nav */}

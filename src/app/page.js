@@ -46,7 +46,7 @@ export default function Home() {
                             <Link href="/admin/dashboard" className="btn btn-primary w-100" type="submit">Login</Link>
                           </div>
                           <div className="col-12">
-                            <p className="small mb-0">Don't have account? <a href="pages-register.html">Create an account</a></p>
+                            <p className="small mb-0">Don't have account? <Link href="register/pages-register">Create an account</Link></p>
                           </div>
                         </form>
                       </div>
