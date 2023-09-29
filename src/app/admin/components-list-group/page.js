@@ -116,8 +116,8 @@ export default function page() {
                                       <li className="list-group-item">A second item</li>
                                       <li className="list-group-item">A third item</li>
                                       <li className="list-group-item">A fourth item</li>
-                                      <li className="list-group-item disabled" aria-disabled="true">A disabled item</li>
-                                  </ul>{/* End ist group with active and disabled items */}
+                                      <li className="list-group-item " >A disabled item</li>
+                                  </ul>
                               </div>
                           </div>
                           <div className="card">

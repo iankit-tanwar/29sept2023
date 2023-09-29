@@ -137,21 +137,21 @@ export default function page() {
                                       </div>
                                       <div className="carousel-inner">
                                           <div className="carousel-item active">
-                                              <img src="assets/img/slides-1.jpg" className="d-block w-100" alt="..." />
+                                              <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/slides-1.jpg" className="d-block w-100" alt="true" />
                                               <div className="carousel-caption d-none d-md-block">
                                                   <h5>First slide label</h5>
                                                   <p>Some representative placeholder content for the first slide.</p>
                                               </div>
                                           </div>
                                           <div className="carousel-item">
-                                              <img src="assets/img/slides-2.jpg" className="d-block w-100" alt="..." />
+                                              <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/slides-1.jpg" className="d-block w-100" alt="true" />
                                               <div className="carousel-caption d-none d-md-block">
                                                   <h5>Second slide label</h5>
                                                   <p>Some representative placeholder content for the second slide.</p>
                                               </div>
                                           </div>
                                           <div className="carousel-item">
-                                              <img src="assets/img/slides-3.jpg" className="d-block w-100" alt="..." />
+                                              <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/slides-1.jpg" className="d-block w-100" alt="true" />
                                               <div className="carousel-caption d-none d-md-block">
                                                   <h5>Third slide label</h5>
                                                   <p>Some representative placeholder content for the third slide.</p>
