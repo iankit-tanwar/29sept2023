@@ -1,9 +1,10 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function page() {
   return (
     <>
-     <main id="main" className="main">
+      <main id="main" className="main">
         <div className="pagetitle">
           <h1>Dashboard</h1>
           <nav>
@@ -219,35 +220,69 @@ export default function page() {
                         </thead>
                         <tbody>
                           <tr>
-                            <th scope="row"><a href="#"><img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/product-1.jpg" alt="true" /></a></th>
+
+                            <th scope="row"><a href="#">
+                              <Image
+                                src="/profile.png"
+                                width={50}
+                                height={50}
+                                alt="Picture of the author"
+                              />
+
+                            </a></th>
                             <td><a href="#" className="text-primary fw-bold">Ut inventore ipsa voluptas nulla</a></td>
                             <td>$64</td>
                             <td className="fw-bold">124</td>
                             <td>$5,828</td>
                           </tr>
                           <tr>
-                            <th scope="row"><a href="#"><img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/product-1.jpg" alt="true" /></a></th>
+                            <th scope="row"><a href="#">
+                              <Image
+                                src="/profile.png"
+                                width={50}
+                                height={50}
+                                alt="Picture of the author"
+                              /></a></th>
                             <td><a href="#" className="text-primary fw-bold">Exercitationem similique doloremque</a></td>
                             <td>$46</td>
                             <td className="fw-bold">98</td>
                             <td>$4,508</td>
                           </tr>
                           <tr>
-                            <th scope="row"><a href="#"><img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/product-1.jpg" alt="true" /></a></th>
+                            <th scope="row"><a href="#">
+                              <Image
+                                src="/profile.png"
+                                width={50}
+                                height={50}
+                                alt="Picture of the author"
+                              /></a></th>
                             <td><a href="#" className="text-primary fw-bold">Doloribus nisi exercitationem</a></td>
                             <td>$59</td>
                             <td className="fw-bold">74</td>
                             <td>$4,366</td>
                           </tr>
                           <tr>
-                            <th scope="row"><a href="#"><img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/product-1.jpg" alt="true" /></a></th>
+                            <th scope="row"><a href="#">
+                              <Image
+                                src="/profile.png"
+                                width={50}
+                                height={50}
+                                alt="Picture of the author"
+                              /></a></th>
                             <td><a href="#" className="text-primary fw-bold">Officiis quaerat sint rerum error</a></td>
                             <td>$32</td>
                             <td className="fw-bold">63</td>
                             <td>$2,016</td>
                           </tr>
                           <tr>
-                            <th scope="row"><a href="#"><img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/product-1.jpg" alt="true" /></a></th>
+                            <th scope="row"><a href="#">
+                              <Image
+                                src="/profile.png"
+                                width={50}
+                                height={50}
+                                alt="Picture of the author"
+                              />
+                            </a></th>
                             <td><a href="#" className="text-primary fw-bold">Sit unde debitis delectus repellendus</a></td>
                             <td>$79</td>
                             <td className="fw-bold">41</td>
@@ -376,27 +411,57 @@ export default function page() {
                   <h5 className="card-title">News &amp; Updates <span>| Today</span></h5>
                   <div className="news">
                     <div className="post-item clearfix">
-                      <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/news-1.jpg" alt="true" />
+
+                      <Image
+                        src="/profile.png"
+                        width={50}
+                        height={50}
+                        alt="Picture of the author"
+                      />
                       <h4><a href="#">Nihil blanditiis at in nihil autem</a></h4>
                       <p>Sit recusandae non aspernatur laboriosam. Quia enim eligendi sed ut harum...</p>
                     </div>
                     <div className="post-item clearfix">
-                      <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/news-1.jpg" alt="true" />
+
+                      <Image
+                        src="/profile.png"
+                        width={50}
+                        height={50}
+                        alt="Picture of the author"
+                      />
                       <h4><a href="#">Quidem autem et impedit</a></h4>
                       <p>Illo nemo neque maiores vitae officiis cum eum turos elan dries werona nande...</p>
                     </div>
                     <div className="post-item clearfix">
-                      <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/news-1.jpg" alt="true" />
+
+                      <Image
+                        src="/profile.png"
+                        width={50}
+                        height={50}
+                        alt="Picture of the author"
+                      />
                       <h4><a href="#">Id quia et et ut maxime similique occaecati ut</a></h4>
                       <p>Fugiat voluptas vero eaque accusantium eos. Consequuntur sed ipsam et totam...</p>
                     </div>
                     <div className="post-item clearfix">
-                      <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/news-1.jpg" alt="true" />
+
+                      <Image
+                        src="/profile.png"
+                        width={50}
+                        height={50}
+                        alt="Picture of the author"
+                      />
                       <h4><a href="#">Laborum corporis quo dara net para</a></h4>
                       <p>Qui enim quia optio. Eligendi aut asperiores enim repellendusvel rerum cuder...</p>
                     </div>
                     <div className="post-item clearfix">
-                      <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/news-1.jpg" alt="true" />
+
+                      <Image
+                        src="/profile.png"
+                        width={50}
+                        height={50}
+                        alt="Picture of the author"
+                      />
                       <h4><a href="#">Et dolores corrupti quae illo quod dolor</a></h4>
                       <p>Odit ut eveniet modi reiciendis. Atque cupiditate libero beatae dignissimos eius...</p>
                     </div>
