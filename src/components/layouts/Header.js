@@ -8,7 +8,13 @@ export default function Header() {
             <header id="header" className="header fixed-top d-flex align-items-center">
                 <div className="d-flex align-items-center justify-content-between">
                     <Link href="/admin/dashboard" className="logo d-flex align-items-center">
-                        <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/logo.png" alt='true' />
+                    <Image
+                                        src="/profile.png"
+                                        width={50}
+                                        height={50}
+                                        alt="Picture of the author"
+                                        className="rounded-circle"
+                                    />
                         <span className="d-none d-lg-block">NiceAdmin</span>
                     </Link>
                     <i className="bi bi-list toggle-sidebar-btn" />

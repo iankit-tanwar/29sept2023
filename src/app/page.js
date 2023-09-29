@@ -12,7 +12,13 @@ export default function Home() {
                   <div className="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
                     <div className="d-flex justify-content-center py-4">
                       <a href="index.html" className="logo d-flex align-items-center w-auto">
-                        <img src="assets/img/logo.png" alt='true'/>
+                      <Image
+                                        src="/profile.png"
+                                        width={50}
+                                        height={50}
+                                        alt="Picture of the author"
+                                        
+                                    />
                         <span className="d-none d-lg-block">NiceAdmin</span>
                       </a>
                     </div>{/* End Logo */}
@@ -46,7 +52,7 @@ export default function Home() {
                             <Link href="/admin/dashboard" className="btn btn-primary w-100" type="submit">Login</Link>
                           </div>
                           <div className="col-12">
-                            <p className="small mb-0">Don't have account? <Link href="register/pages-register">Create an account</Link></p>
+                            <p className="small mb-0">Dont have account? <Link href="register/pages-register">Create an account</Link></p>
                           </div>
                         </form>
                       </div>
