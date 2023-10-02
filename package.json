@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "latest",
+    "primereact": "^10.0.2",
     "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
+    "react-data-table-component": "^7.5.4",
+    "react-dom": "latest"
   },
   "devDependencies": {
     "eslint": "latest",

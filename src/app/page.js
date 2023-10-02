@@ -1,5 +1,6 @@
 
 import Link from 'next/link';
+import { APP_NAME } from '../helper/helper';
 
 export default function Home() {
   return (
@@ -14,13 +15,16 @@ export default function Home() {
                     <div className="d-flex justify-content-center py-4">
                       <a href="index.html" className="logo d-flex align-items-center w-auto">
                       <img src="assets/img/logo.png" alt="true" />
-                        <span className="d-none d-lg-block">FKAUTO</span>
+                        <span className="d-none d-lg-block">{APP_NAME}</span>
                       </a>
                     </div>{/* End Logo */}
                     <div className="card mb-3">
                       <div className="card-body">
-                        
-                        <form className="row g-3 needs-validation mt-2" noValidate>
+                      <div class="pt-2 pb-2">
+                    <h5 class="card-title text-center pb-0 fs-4">Login </h5>
+                  
+                  </div>
+                        <form className="row g-3 needs-validation " noValidate>
                           <div className="col-12">
                             <label htmlFor="yourUsername" className="form-label">Username</label>
                             <div className="input-group has-validation">

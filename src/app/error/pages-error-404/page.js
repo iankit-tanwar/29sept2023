@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+
 
 export default function page() {
   return (
@@ -10,13 +10,7 @@ export default function page() {
             <h1>404</h1>
             <h2>The page you are looking for doesnt exist.</h2>
             <a className="btn" href="index.html">Back to home</a>
-            <Image
-              src="/profile.png"
-              width={50}
-              height={50}
-              alt="Picture of the author"
-
-            />
+           
             <div className="credits">
               {/* All the links in the footer should remain intact. */}
               {/* You can delete the links only if you purchased the pro version. */}

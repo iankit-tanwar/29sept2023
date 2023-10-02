@@ -1,17 +1,25 @@
-
+'use client'
 import Header from '../../components/layouts/Header';
 import Aside from '../../components/layouts/Aside';
 import Footer from '../../components/layouts/Footer';
 import Script from 'next/script';
 
 
+
+import BreadCrumb from '../../components/layouts/BreadCrumb';
+
+
 export default function DashboardLayout({ children }) {
+
+
     return (
         <>
             <Header />
             <Aside />
-
-            {children}
+            <main id="main" className="main">
+                <BreadCrumb />
+                {children}
+            </main>
             <Footer />
 
 

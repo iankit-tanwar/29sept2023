@@ -249,9 +249,9 @@ export default function page() {
                                                 <div className="text-center">
                                                     <button type="submit" className="btn btn-primary">Change Password</button>
                                                 </div>
-                                            </form>{/* End Change Password Form */}
+                                            </form>
                                         </div>
-                                    </div>{/* End Bordered Tabs */}
+                                    </div>
                                 </div>
                             </div>
                         </div>

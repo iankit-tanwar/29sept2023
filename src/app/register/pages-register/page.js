@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 import React from 'react'
 import Link from 'next/link'
 
@@ -18,7 +18,7 @@ export default function page() {
                                         <img src="/assets/img/logo.png" alt="true" />
                                             <span className="d-none d-lg-block">FKAUTO</span>
                                         </a>
-                                    </div>{/* End Logo */}
+                                    </div>
                                     <div className="card mb-3">
                                         <div className="card-body">
                                             <div className="pt-4 pb-2">
