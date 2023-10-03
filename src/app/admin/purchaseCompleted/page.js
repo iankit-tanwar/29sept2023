@@ -12,7 +12,8 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 
 
-export default function page() {
+export default function PurchaseComplete() {
+    
   const [products, setProducts] = useState([]);
   const dt = useRef(null);
 
