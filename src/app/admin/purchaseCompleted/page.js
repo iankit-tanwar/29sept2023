@@ -4,7 +4,10 @@ import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { Button } from 'primereact/button';
 import { Tooltip } from 'primereact/tooltip';
-import { ProductService } from '@/product/page';
+import { CustomerService } from '@/customer/page';
+
+
+        
 
 
 import 'primereact/resources/themes/saga-blue/theme.css'; // Replace with your preferred theme
@@ -14,32 +17,31 @@ import 'primeicons/primeicons.css';
 
 export default function PurchaseComplete() {
     
-  const [products, setProducts] = useState([]);
+  
   const dt = useRef(null);
 
-  const cols = [
-      { field: 'id', header: 'Id' },
-      { field: 'fk_acc', header: 'FK Account' },
-      { field: 'pro_link', header: 'Product Link' },
-      { field: 'acc_holder', header: 'Acc Holder' },
-      { field: 'cc_acc', header: 'Cc Account' },
-      { field: 'gift_acc', header: 'Gift Amount' },
-      { field: 'tsx_acc', header: 'TSX Amount' },
-      { field: 'final_price', header: 'Final Price' },
-      { field: 'gift_order', header: 'Gift Card Order' },
-      { field: 'pur_order', header: 'Purchase Order' },
-      { field: 'remark', header: 'Remark' },
-      { field: 'pur_start', header: 'Purchase Started At' },
-      { field: 'status', header: 'Status ' },
-      { field: 'action', header: 'Action' }
+  const exportColumns = [
+    { title: 'Id', dataKey: 'id' },
+    { title: 'FK Account', dataKey: 'fk_acc' },
+    { title: 'Acc Holder', dataKey: 'acc_holder' },
+    { title: 'Cc Account', dataKey: 'cc_acc' },
+    { title: 'Gift Amount', dataKey: 'gift_acc' },
+    { title: 'TSX Amount', dataKey: 'tsx_acc' },
+    { title: 'Final Price', dataKey: 'final_price' },
+    { title: 'Gift Card Order', dataKey: 'gift_order' },
+    { title: 'Purchase Order', dataKey: 'pur_order' },
+    { title: 'Remark', dataKey: 'remark' },
+    { title: 'Status', dataKey: 'status' },
+    { title: 'Action', dataKey: 'action' },
+    
+    
   ];
 
-  const exportColumns = cols.map((col) => ({ title: col.header, dataKey: col.field }));
+  const [customers, setCustomers] = useState([]);
 
-  useEffect(() => {
-      ProductService.getProductsMini().then((data) => setProducts(data));
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
-
+    useEffect(() => {
+        CustomerService.getCustomersMedium().then((data) => setCustomers(data));
+    }, []);
   const exportCSV = (selectionOnly) => {
       dt.current.exportCSV({ selectionOnly });
   };
@@ -49,15 +51,16 @@ export default function PurchaseComplete() {
           import('jspdf-autotable').then(() => {
               const doc = new jsPDF.default(0, 0);
 
-              doc.autoTable(exportColumns, products);
+              doc.autoTable(exportColumns, customers);
               doc.save('products.pdf');
           });
       });
   };
 
+
   const exportExcel = () => {
       import('xlsx').then((xlsx) => {
-          const worksheet = xlsx.utils.json_to_sheet(products);
+          const worksheet = xlsx.utils.json_to_sheet(customers);
           const workbook = { Sheets: { data: worksheet }, SheetNames: ['data'] };
           const excelBuffer = xlsx.write(workbook, {
               bookType: 'xlsx',
@@ -96,11 +99,25 @@ export default function PurchaseComplete() {
      <div className="card">
             <Tooltip target=".export-buttons>button" position="bottom" />
 
-            <DataTable ref={dt} value={products} header={header} tableStyle={{ minWidth: '50rem' }}>
-                {cols.map((col, index) => (
-                    <Column key={index} field={col.field} header={col.header} />
-                ))}
+       
+
+            <DataTable ref={dt} header={header} value={customers} paginator rows={5} rowsPerPageOptions={[5, 10, 25, 50]} tableStyle={{ minWidth: '50rem' }}>
+                <Column field="id" header="Id" style={{ width: '25%' }}></Column>
+                <Column field="fk_acc" header="FK Account" style={{ width: '25%' }}></Column>
+                <Column field="pro_link" header="Product Link" style={{ width: '25%' }}></Column>
+                <Column field="acc_holder" header="Acc Holder" style={{ width: '25%' }}></Column>
+                <Column field="cc_acc" header="Cc Account" style={{ width: '25%' }}></Column>
+                <Column field="gift_acc" header="Gift Amount" style={{ width: '25%' }}></Column>
+                <Column field="tsx_acc" header="TSX Amount" style={{ width: '25%' }}></Column>
+                <Column field="final_price" header="Final Price" style={{ width: '25%' }}></Column>
+                <Column field="gift_order" header="Gift Card Order" style={{ width: '25%' }}></Column>
+                <Column field="pur_order" header="Purchase Order" style={{ width: '25%' }}></Column>
+                <Column field="remark" header="Remark" style={{ width: '25%' }}></Column>
+                <Column field="pur_start" header="Purchase Started At" style={{ width: '25%' }}></Column>
+                <Column field="status" header="Status" style={{ width: '25%' }}></Column>
+                <Column field="action" header="Action" style={{ width: '25%' }}></Column>
             </DataTable>
+           
         </div>
            
         </section>
