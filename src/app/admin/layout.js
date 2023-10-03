@@ -7,6 +7,7 @@ import Script from 'next/script';
 
 
 import BreadCrumb from '../../components/layouts/BreadCrumb';
+import "primereact/resources/themes/lara-light-indigo/theme.css";
 
 
 export default function DashboardLayout({ children }) {

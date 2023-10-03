@@ -7,6 +7,13 @@ import '../../public/assets/vendor/remixicon/remixicon.css';
 import '../../public/assets/vendor/simple-datatables/style.css';
 import '../../public/assets/css/style.css';
 
+import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
+
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+
+import 'primereact/resources/themes/saga-blue/theme.css'; // Replace with your preferred theme
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
 
 
 import './globals.css'
@@ -24,6 +31,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    <PrimeReactProvider>
+
+
     <html lang="en">
       <body className={inter.className}>
         {children}
@@ -44,5 +54,6 @@ export default function RootLayout({ children }) {
         
         </body>
     </html>
+    </PrimeReactProvider>
   )
 }
